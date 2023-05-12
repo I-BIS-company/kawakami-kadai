@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #70a3d4;
+    text-align: center;
+    height: 62px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 13px;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 3px 55px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    display: block;
+}
