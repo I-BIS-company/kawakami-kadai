@@ -29,3 +29,19 @@ nav ul li a {
     color: black;
     display: block;
 }
+
+.intro-container {
+    position: relative;
+    text-align: center;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-phrase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
