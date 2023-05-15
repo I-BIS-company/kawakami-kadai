@@ -1,6 +1,10 @@
+/* General Settings */
+
 body {
     margin: 0;
 }
+
+/* Navigation Bar */
 
 nav {
     background-color: #70a3d4;
@@ -30,6 +34,8 @@ nav ul li a {
     display: block;
 }
 
+/* Introduction Photo and Text */
+
 .intro-container {
     position: relative;
     text-align: center;
@@ -44,4 +50,23 @@ nav ul li a {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
+}
+
+/* Main Content */
+
+.main-content {
+    text-align: center;
+}
+
+.content-text {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 19px;
+}
+
+.horizontal-line {
+    width: 20%;
+    margin-bottom: 40px;
 }
