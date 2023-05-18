@@ -6,26 +6,26 @@ body {
 
 /* Navigation Bar */
 
-nav {
+.nav-header {
     background-color: #70a3d4;
     text-align: center;
     height: 62px;
 }
 
-nav ul {
+.nav-header ul {
     list-style: none;
     margin: 13px;
     padding: 0;
     display: inline-block;
 }
 
-nav ul li {
+.nav-header ul li {
     margin: 0;
     padding: 0;
     float: left;
 }
 
-nav ul li a {
+.nav-header ul li a {
     text-decoration: none;
     padding: 3px 55px;
     font-size: 20px;
@@ -107,4 +107,32 @@ button {
 
 footer {
     clear: both;
+}
+
+.nav-footer {
+    background-color: #70a3d4;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-footer ul li {
+    margin: 23px
+}
+
+.nav-footer ul li p {
+    font-size: 22px;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
 }
