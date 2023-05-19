@@ -2,12 +2,13 @@
 
 body {
     margin: 0;
+    font-family: 'Libre Baskerville', serif;
 }
 
 /* Navigation Bar */
 
 .nav-header {
-    background-color: #70a3d4;
+    background-color: #546A7B;
     text-align: center;
     height: 62px;
 }
@@ -30,7 +31,7 @@ body {
     padding: 3px 55px;
     font-size: 20px;
     font-weight: 900;
-    color: black;
+    color: #FDFDFF;
     display: block;
 }
 
@@ -39,10 +40,15 @@ body {
 .intro-container {
     position: relative;
     text-align: center;
+    background-color: #62929E;
+    margin-bottom: 70px;
 }
 
 .intro-img {
+    max-width: 1200px;
     width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .intro-phrase {
@@ -50,12 +56,18 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #FDFDFF;
 }
 
 /* Main Content */
 
 .main-content {
     text-align: center;
+}
+
+.main-content h2 {
+    margin-bottom: 50px;
+    color: #393D3F;
 }
 
 .content-text {
@@ -74,8 +86,8 @@ body {
 /* Profile Content */
 
 .profile-content {
-    width: 60%;
-    height: 200px;
+    width: 850px;
+    height: 180px;
     border: solid;
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +99,7 @@ body {
     float: left;
 }
 
-.profile-content > p {
+.profile-content>p {
     position: relative;
     top: 20%;
 }
@@ -95,8 +107,8 @@ body {
 button {
     position: relative;
     top: 25%;
-    background-color: #70a3d4;
-    color: white;
+    background-color: #546A7B;
+    color: #FDFDFF;
     padding: 10px 25px;
     font-size: 16px;
     border-radius: 12px;
@@ -110,9 +122,9 @@ footer {
 }
 
 .nav-footer {
-    background-color: #70a3d4;
+    background-color: #546A7B;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .nav-footer ul {
@@ -128,11 +140,54 @@ footer {
 
 .nav-footer ul li p {
     font-size: 22px;
+    color: #C6C5B9;
 }
 
 .nav-footer ul li a {
     text-decoration: none;
-    font-size: 25px;
-    color: black;
+    font-size: 22px;
+    color: #FDFDFF;
     font-weight: 900;
+}
+
+/* Profile Page Img */
+
+.profile-container {
+    position: relative;
+    text-align: center;
+    background-color: #62929E;
+    margin-bottom: 70px;
+}
+
+.profile-main-img {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Profile Table */
+
+.profile-table-container {
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.profile-table {
+    width: 100%;
+    border: 1px solid;
+    border-color: #393D3F;
+    border-collapse: collapse;
+}
+
+.profile-table tr,
+td {
+    border: 1px solid;
+    padding: 15px 30px;
+}
+
+.left-col {
+    width: 30%;
 }

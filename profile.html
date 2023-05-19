@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -15,13 +21,35 @@
         </ul>
       </nav>
     </header>
-    <div class="profile-img">
-      <img />
+    <div class="profile-container">
+      <img
+        class="profile-main-img"
+        src="./static/catbanner_1.jpg"
+        alt="Profile text with a cat image."
+      />
     </div>
-    <div class="profile-content">
-      <p>PROFILE</p>
-      <p>Lorem ipsum dolor sit amet consectetur</p>
-      <div class="profile-table">
+    <div class="main-content">
+      <h2>PROFILE</h2>
+      <p>I'm going to introduce my profile on this page.</p>
+      <div class="profile-table-container">
+        <table class="profile-table">
+          <tr>
+            <td class="left-col">Name</td>
+            <td>Kawakami Kenji</td>
+          </tr>
+          <tr>
+            <td class="left-col">Birthplace</td>
+            <td>Shizuoka-ken, Shizuoka-shi</td>
+          </tr>
+          <tr>
+            <td class="left-col">Hobbies</td>
+            <td>Soccer, Game and reading books.</td>
+          </tr>
+          <tr>
+            <td class="left-col">Liked Languages</td>
+            <td>Python, HTML, CSS.</td>
+          </tr>
+        </table>
       </div>
     </div>
     <footer>
