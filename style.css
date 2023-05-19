@@ -115,6 +115,11 @@ button {
     border: none;
 }
 
+.profile-btn {
+    text-decoration: none;
+    color: #FDFDFF;
+}
+
 /* Footer */
 
 footer {
