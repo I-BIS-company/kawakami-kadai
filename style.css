@@ -113,6 +113,7 @@ button {
     font-size: 16px;
     border-radius: 12px;
     border: none;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .profile-btn {
@@ -206,5 +207,27 @@ td {
     .intro-img {
         height: 100vh;
         object-fit: cover;
+    }
+
+    .profile-content {
+        width: auto;
+        height: auto;
+        border: none;
+    }
+
+    .profile-img {
+        width: 60%;
+        border: solid 3px;
+        float: none;
+    }
+
+    .profile-text {
+        margin: 52px 0;
+        font-size: 19px;
+    }
+
+    button {
+        padding: 15px 35px;
+        font-size: 19px;
     }
 }
