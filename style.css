@@ -197,9 +197,14 @@ td {
     width: 30%;
 }
 
-/* Responsive with breakpoint at 980px width*/
+/* Responsive with breakpoint at 980px width for SP*/
 @media (max-width: 980px) {
     .nav-header {
         text-align: left;
+    }
+
+    .intro-img {
+        height: 100vh;
+        object-fit: cover;
     }
 }
