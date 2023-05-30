@@ -238,4 +238,9 @@ td {
     .nav-footer {
         text-align: left;
     }
+
+    /* Responsive Profile Table */
+    .profile-table-container {
+        width: 95%;
+    }
 }
