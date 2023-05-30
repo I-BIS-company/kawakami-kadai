@@ -200,15 +200,18 @@ td {
 
 /* Responsive with breakpoint at 980px width for SP*/
 @media (max-width: 980px) {
+    /* Responsive Header Navigation Bar */
     .nav-header {
         text-align: left;
     }
 
+    /* Responsive Introduction Image */
     .intro-img {
         height: 100vh;
         object-fit: cover;
     }
 
+    /* Responsive Profile Content */
     .profile-content {
         width: auto;
         height: auto;
@@ -231,6 +234,7 @@ td {
         font-size: 19px;
     }
 
+    /* Responsive Footer Navigation Bar */
     .nav-footer {
         text-align: left;
     }
