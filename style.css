@@ -172,6 +172,13 @@ footer {
     margin: 0 auto;
 }
 
+/* Profile Heading Text*/
+
+.profile-h1 {
+    color: #393D3F;
+    font-size: 1.5em;
+}
+
 /* Profile Table */
 
 .profile-table-container {
