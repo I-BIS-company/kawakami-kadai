@@ -198,6 +198,13 @@ td {
     width: 30%;
 }
 
+/* Animation Class */
+.zoom-in {
+    transform: scale(1.2);
+    margin-top: 46px;
+    margin-bottom: 100px;
+}
+
 /* Responsive with breakpoint at 980px width for SP*/
 @media (max-width: 980px) {
     /* Responsive Header Navigation Bar */
