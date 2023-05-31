@@ -172,6 +172,13 @@ footer {
     margin: 0 auto;
 }
 
+/* Profile Heading Text*/
+
+.profile-h1 {
+    color: #393D3F;
+    font-size: 1.5em;
+}
+
 /* Profile Table */
 
 .profile-table-container {
@@ -198,7 +205,14 @@ td {
     width: 30%;
 }
 
+/* Hover Property */
+
+a:hover {
+    opacity: 0.5;
+}
+
 /* Animation Class */
+
 .zoom-in {
     transform: scale(1.2);
     margin-top: 46px;
@@ -207,6 +221,7 @@ td {
 
 /* Responsive with breakpoint at 980px width for SP*/
 @media (max-width: 980px) {
+
     /* Responsive Header Navigation Bar */
     .nav-header {
         text-align: left;
